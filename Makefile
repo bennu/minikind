@@ -2,7 +2,7 @@ PKG := github.com/bennu/minikind
 
 BIN:= minikind
 
-OUTPUT := "./$(BIN)"
+OUTPUT := "./_output/bin/$(BIN)"
 
 VERSION ?= master
 
